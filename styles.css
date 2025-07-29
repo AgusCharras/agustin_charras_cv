@@ -55,6 +55,7 @@ body {
     flex: 1;
     max-width: 600px;
     margin: 20px;
+    text-align: justify;
 }
 
 .intro-text h3{
@@ -95,6 +96,10 @@ body {
     color: var(--color-fondo--claro2);
     margin: auto;
     max-width: 800px;
+}
+
+.habilidades p{
+    text-align: justify;
 }
 
 .contenedor-icons{
@@ -231,7 +236,8 @@ footer {
     }
     
     .intro-text {
-        max-width: 90%;         /* Que el texto use casi todo el ancho */
+        max-width: 90%;
+        text-align: justify;         /* Que el texto use casi todo el ancho */
     }
 
     .intro-photo img {
