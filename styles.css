@@ -223,3 +223,20 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column; /* Apila texto y foto */
+        text-align: center;     /* Centra el contenido */
+    }
+    
+    .intro-text {
+        max-width: 90%;         /* Que el texto use casi todo el ancho */
+    }
+
+    .intro-photo img {
+        width: 150px;
+        height: 150px;           /* Foto más pequeña en móvil */
+        border-radius: 50%;
+    }
+}
